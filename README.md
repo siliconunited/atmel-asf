@@ -1,5 +1,5 @@
 # Introduction
-----------------
+
 
 The Atmel Software Framework (ASF) is a collection of embedded software for Atmel flash MCU (www.atmel.com/asf).
 - It simplifies the usage of microcontrollers, providing an abstraction to the hardware and high-value middlewares
@@ -46,7 +46,6 @@ interface to interact with the component (eg memories like SDRAM, SD card, or di
 
 
 # Documentation
---------------------------
 
 ASF release notes, reference manual and getting started documents can be found on http://www.atmel.com/asf.
 
@@ -54,7 +53,6 @@ The ASF documentation can be found online on http://asf.atmel.com.
 
 
 # Toolchain Header Files Update
----------------------------------
 
 For AVR UC3 users using IAR, it is recommended to update the IAR header files.
 To do that, unzip the avr32-headers.zip file (located under
@@ -63,7 +61,6 @@ under "IAR installation folder"/Embedded Workbench x.y/avr32/inc/.
 
 
 # IAR EW Users
-----------------
 
 Using an example of usage of the AVR UC3 GPIO driver module as an example, the
 IAR projects are located under:
@@ -82,7 +79,6 @@ Each iar folder contains a full IAR project with:
 
 
 # AVR32 Studio Users
-----------------------
 
 It is possible to work with an unzipped ASF package from within AVR32 Studio: this
 is described in the application note "AVR32769: How to Compile the standalone AVR
@@ -90,7 +86,6 @@ UC3 Software Framework in AVR32 Studio V2": http://www.atmel.com/dyn/resources/p
 
 
 # Offline documentation Generating The HTML Documentation
--------------------------------------
 
 All modules are fully documented using doxygen tags. Each project within the ASF
 contains a doxyfile.doxygen (used to configure doxygen for a proper documentation
@@ -106,7 +101,6 @@ Using the command line, this is done with the following command: doxygen doxyfil
 
 
 # Contact Information
------------------------
 
 For more info about Atmel MCU visit http://www.atmel.com/products/microcontrollers/default.aspx or contact support through the http://support.atmel.no/ site.
 The support site also have a Frequently Asked Questions page with the most common questions.
@@ -115,7 +109,6 @@ ASF bugs or enhancement requests can be reported in the ASF Bug Tracker (http://
 
 
 # Community Information
--------------------------
 
 Users can find an ASF forum (http://www.avrfreaks.net/index.php?name=PNphpBB2&file=viewforum&f=21) on AVRfreaks for AVR users or on http://www.at91.com/ for SAM users.
 This forum can be used to have an open discussion about usage, development, bugs, fixes, improvements, etc.
